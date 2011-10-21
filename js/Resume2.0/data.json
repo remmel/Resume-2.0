@@ -1,0 +1,142 @@
+var json_cv = {
+    education: [
+    {
+        id: 'Durzy',
+        name: 'High School',
+        start_date: '2002-09-01',
+        end_date: '2005-06-30',
+        description: "Lycée Durzy - Montargis, France\nHigh School Diploma in Sciences with honors.\nMath, Chemistry & Engineer sciences (Electronic & Mechanical)",
+        config: {
+            popup_dir: 3,
+            color: '#A64600'
+        }
+    },
+    {
+        id: 'DUT',
+        name: 'DUT / 2-years technical degree\nin Informatics-Embedded Systems',
+        start_date: '2005-09-01',
+        end_date: '2007-06-30',
+        description: "BSc in computer science specialized \nin Embedded Systems.\n",
+        config: {
+            color: '#FF9140',
+            popup_dir: 2
+        }
+    },
+    {
+        id: 'UTC',
+        name: 'Master degree in Computer Sciences\nUniversité de Compiègne',
+        start_date: '2007-09-01',
+        end_date: '2010-10-01',
+        description: "Master degree in Computer Science\nspecialized in Project Management",
+        config: {
+            color: '#FFAE73',
+              popup_dir: 2
+        }
+    },
+    {
+        id: 'UPM',
+        name: 'Erasmus\nUPM',
+        start_date: '2009-09-01',
+        end_date: '2010-02-15',
+        description: "Exchange program (ERASMUS) in Spain",
+        config: {
+            flag: "spain",
+            color: '#FF6C00',
+            popup_dir: 2
+        }
+    }
+    //mettre sous niveau
+    ],
+
+    experience: [
+    //0772A1
+    {
+        id: 'RGU',
+        name: 'RGU',
+        start_date: '2007-04-01',
+        end_date: '2007-06-20',
+        description: "Robert Gorder University - Aberdeen, Scotland\nDevelopment of an AUV.\nImage Processing, C++, Algorithm, Hough, Linux.",
+        position: "Developer",
+        keyword: "C++, Image processing, UML",
+        config: {
+            flag: "scotland",
+            color: '#63AFD0'
+        }
+    },
+    {
+        id: 'JE',
+        name: 'JE',
+        start_date: '2008-07-01',
+        end_date: '2008-09-01',
+        description: "USEC - CompiÃ¨gne, France\nDevelopment of a web app for hospitals.\n Php, UML, MVC, MySQL, Javascript, ActionScript",
+        position: 'Php developer',
+        keyword: "PHP, UML, MySql, MVC.",
+        config: {
+            pointer_h: 80,
+            color: '#63AFD0'
+        }
+    },
+    {
+        id: 'PXL',
+        name: 'PXL',
+        start_date: '2008-09-15',
+        end_date: '2009-02-15',
+        description: "Parexel - Berlin, Germany\nDevelopment of a JAVA based tool.\nJAVA, XML, Oracle, SWING",
+        position: "Developer",
+        keyword: "JAVA, Oracle, Swing",
+        config: {
+            flag: "germany",
+            color: '#3BA3B0'
+        }
+    },
+    {
+        id: 'Appel',
+        name: 'Apple',
+        start_date: '2010-03-15',
+        end_date: '2010-09-15',
+        description: "Apple - Cupertino, USA\nDevelopment of a project management tool.\nRuby on Rails, PHP, JS",
+        position: "SW Engineer",
+        keyword: "Ruby On Rails, Php, JS",
+        config: {
+            flag: "usa",
+            color: '#63AFD0'
+        }
+    },
+    {
+        id: 'Babel',
+        name: 'Babel',
+        start_date: '2010-12-01',
+        end_date: '2011-04-15',
+        description: "Babel - Madrid, Spain\nDevelopment of a J2EE comercial website.\n J2EE, JSF, Hibernate, Primefaces, Flex, JS, jQuery.",
+        position: "SW Engineer",
+        keyword: "J2EE, JAVA, JSF, Hibernate, Flex",
+        config: {
+            pointer_h: 80,
+            flag: "spain",
+            color: '#3BA3B0'
+        }
+    },
+    {
+        id: 'Solutec',
+        name: 'QSign',
+        start_date: '2011-06-01',
+        end_date: '2011-10-01',
+        description: "QuickSign - Paris, France\nDevelopment of a SaaS app\n Struts, SOA, RMI, Spring, Hibernate, Javascript, ExtJS",
+        flag: "france",
+        position: "SW Engineer",
+        keyword: "J2EE, JAVA, Struts",
+        config: {
+            pointer_text_x: -40,
+            color: '#63AFD0'
+        }
+    }
+    ],
+
+    project: [
+    {
+        id: 'Creenvie',
+        date: '2009-06-15',
+        popup: 'Got the 1st prize of the contest CREENVIE\nentrepreneurship / company set-up'
+    }
+    ]
+};
